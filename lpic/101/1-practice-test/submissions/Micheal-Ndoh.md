@@ -17,7 +17,7 @@
 
 10= cat /var/log/syslog | grep error | wc -l
 
-11= Hard link are files that are directly link. Softlinks points to a file. when a softlink target is deleted the softlink can data be used to access data but when a hardlink is deleted the same data can be accessed on the other file. soft links can be accessed accross different file systems while hard links can ony be access on the system file system
+11= Hard link are files that are directly linked to each other any thing written in one applies to the other. Softlinks are pointers to a file. when a softlink main target is deleted the softlink can not access the data another  but when a hardlink is deleted the same data can be accessed on the other file. soft links can be accessed accross different file systems while hard links can ony be access on the system file system
 
 12=find /etc -type f -name "*.conf" -mtime -7
 
