@@ -33,5 +33,7 @@
 at with the ext4 systemuse **mkfs.ext4 /dev/sda1** 
 then create a mount point
 **mkdir /data**
-mount th e new partiton to /data **mount /dev/sda1 /data** 
-18= when the computer is powered on the computer does power on self test which for initialization of hardware devices and system units if they are functioning then the boot loader loads the kernal and initramfs from the /boot directory  then the firmware loads the first stage of bootloader which the boot sector and the second stage which is the loading the kernel the the initramfs is used as a temporary filesystem which is used for the initialization of the kernel and the system initializtion begins where startuo scripts and services needed to manage the system executed
+mount th e new partiton to /data **mount /dev/sda1 /data**
+
+
+19=when the computer is powered on the computer does power on self test which for initialization of hardware devices and system units if they are functioning then the boot loader loads the kernal and initramfs from the /boot directory  then the firmware loads the first stage of bootloader which the boot sector and the second stage which is the loading the kernel the the initramfs is used as a temporary filesystem which is used for the initialization of the kernel and the system initializtion begins where startuo scripts and services needed to manage the system executed
