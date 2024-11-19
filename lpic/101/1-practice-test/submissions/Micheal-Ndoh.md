@@ -1,2 +1,4 @@
-1=lscpu
-2= **BIOS** is terms of boot uses the Master Boot Record(MBR) as it's Bootloader while UEFI uses the Grub(Grand unified bootloader) or grub2 as it's bootloaderand and  the maximum number of partitions on a BIOS system is 4 while in UEFI is 128. The UEFI offers a more faster and secured booting interface with new improved configurable features on the boot menu than  the BIOS
+1= lscpu**(B)**
+
+2= **BIOS** in terms of boot process uses the `Master Boot Record(MBR)` as it's Bootloader while **UEFI(unified extensible firmware interface)** uses the `Grub(Grand unified bootloader)` or grub2 as it's bootloader and and  the maximum number of partitions on a BIOS system is `4` while in UEFI is `128`. The UEFI offers a more faster and secured booting interface with new improved configurable features on the boot menu than the BIOS. The BIOS uses the `SYS V(5) init` to manage it's processes and services while the UEFI uses `systemd`
+3= Use the `lsmod` command to list all modules loaded on your linux system 
