@@ -8,6 +8,26 @@
 
 5=apt install package **(C)**
 
-6= apt is a more advanced high level package manager that has the ability of searching the internet scanning through repositories to install a specific package and is more human friendly.
-dpkg is a low level package manager which is more system friendly that it communicates faster and directly with the computer system.
+6= **apt** is a more advanced high level package manager that has the ability of searching the internet scanning through repositories to install a specific package and is more human friendly.
+**dpkg** is a low level package manager which is more system friendly that it communicates faster and directly with the computer system.
 
+7=
+
+9=tail
+
+10= cat /var/log/syslog | grep error | wc -l
+
+11= Hard link are links direct
+Softlinks points to a file. when a softlink target is deleted the softlink becomes a file which can't be accessed 
+12=
+13=
+14=B
+15=mount | awk 
+17= firstly use the **lsblk** command lists all disks then create a new partition like using  **fdisk /dev/sda**
+to format with the ext4 systemuse **mkfs.ext4 /dev/sda1** 
+then create a mount point
+mkdir /data
+mount th e new partiton to /data **mount /dev/sdx1 /data** Add an entry to /etc/fstab for permanent mounting
+
+echo "/dev/sda1 /data ext4 defaults 0 2" >> /etc/fstab
+18=when the computer is powered on the computer does power on self test which tests for hardware devices and system units if they are functioning 
