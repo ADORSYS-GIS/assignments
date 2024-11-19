@@ -22,7 +22,7 @@
 12=find /etc -type f -name "*.conf" -mtime -7
 
 13=The cron daemon is used for scheduling tasks or processes to be executed at a given time
-Example 0 0 * * * /backup.sh
+    Example 0 0 * * * /home/user/backup.sh
 
 14=B
 
@@ -34,8 +34,8 @@ Example 0 0 * * * /backup.sh
 17= firstly use the **lsblk** command lists all disks then create a new partition like using  **fdisk /dev/sda**
 to format with the ext4 systemuse **mkfs.ext4 /dev/sda1** 
 then create a mount point
-mkdir /data
-mount th e new partiton to /data **mount /dev/sdx1 /data** Add an entry to /etc/fstab for permanent mounting
+**mkdir /data**
+mount th e new partiton to /data **mount /dev/sda1 /data** Add an entry to /etc/fstab for permanent mounting
 
 echo "/dev/sda1 /data ext4 defaults 0 2" >> /etc/fstab
 18= when the computer is powered on the computer does power on self test which for initialization of hardware devices and system units if they are functioning then the boot loader loads the kernal and initramfs from the /boot directory  then the firmware loads the first stage of bootloader which the boot sector and the second stage which is the loading the kernel the the initramfs is used as a temporary filesystem which is used for the initialization of the kernel and the system initializtion begins where startuo scripts and services needed to manage the system executed
