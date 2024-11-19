@@ -20,7 +20,9 @@
 11= Hard link are files that are directly link. Softlinks points to a file. when a softlink target is deleted the softlink can data be used to access data but when a hardlink is deleted the same data can be accessed on the other file. soft links can be accessed accross different file systems while hard links can ony be access on the system file system
 
 12=find /etc -type f -name "*.conf" -mtime -7
+
 13=The cron daemon is used for scheduling tasks or processes to be executed at a given time
+Example 0 0 * * * /backup.sh
 
 14=B
 
