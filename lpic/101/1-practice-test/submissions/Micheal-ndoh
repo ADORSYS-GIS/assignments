@@ -11,7 +11,7 @@
 6= **apt** is a more advanced high level package manager that has the ability of searching the internet scanning through repositories to install a specific package and is more human friendly.
 **dpkg** is a low level package manager which is more system friendly that it communicates faster and directly with the computer system.
 
-7=sudo apt-cache clean
+7=sudo apt autoremove
 
 9=tail
 
@@ -28,11 +28,13 @@
 
 15=cat /etc/fstab | awk '{print $1}'
 
-17= >firstly use the **lsblk** command lists all disks then create a new partition like using  **fdisk /dev/sda**
+>17=firstly use the **lsblk** command lists all disks then create a new partition like using  **fdisk /dev/sda**
  >To format with the ext4 systemuse **mkfs.ext4 /dev/sda1** 
 then create a mount point
 **mkdir /data**
 lastly mount the new partiton to /data **mount /dev/sda1 /data**
+
+18= /etc/fstab holds configuration of mounted systems
 
 
 19=when the computer is powered on the computer does power on self test which for initialization of hardware devices and system units if they are functioning then the boot loader loads the kernal and initramfs from the /boot directory  then the firmware loads the first stage of bootloader which the boot sector and the second stage which is the loading the kernel the the initramfs is used as a temporary filesystem which is used for the initialization of the kernel and the system initializtion begins where startuo scripts and services needed to manage the system executed
