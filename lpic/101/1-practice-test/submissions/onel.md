@@ -7,7 +7,7 @@
    | can partition disk of space less than 2 TB         | can partition disk of space greater than 2 TB          |
    | uses the MBR for it's partiont table | uses GPT for it's partion table |
    | Doesn't use the extensible firmware interface           | uses an extensible firmware interface |
-   | uses 32 bits | uses 128 bits|
+   | uses 16 bits | uses 32 bits|
 3. The command
  ```
 lsmod
