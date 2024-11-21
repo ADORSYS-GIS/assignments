@@ -47,9 +47,10 @@
 
 ### 22=
 **Hardlinks**
-Hardlinks are links that have thesame inodes and any modification on one applies to the other
-Hardlinks are created using the following commands
-Hardlinks can not be accessed across different filesystems 
+- Hardlinks are links that have thesame inodes and any modification on one applies to the other
+- Hardlinks are created using the following commands
+- Hardlinks can not be accessed across different filesystems 
+- When a hardlink is deleted the data on the other file remains accessible
 ```shell
 ln <nameofname>
 ```
@@ -65,7 +66,17 @@ cp -l
 ```shell
 ln -s <nameoffile>
 ```
+24= For the files use the command 
+```
+chmod  u=rw, g=r, o=r /home/user
+```
+For the directory use the command 
+```
+chmod 
+
 25= It holds the configurations of the name service switch
 e.g hosts: files
 
-27=
+27= **iptables** shows the various administration tool for IPv4/IPv6 packet filtering. you can use the 
+
+**ufw**  program for managing a netfilter firewalland configuring the access and not to access
