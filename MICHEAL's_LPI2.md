@@ -71,7 +71,7 @@ ln -s <nameoffile>
 chmod 644 /home/user
 ```
 For the directory use the command 
-```
+
 ```shell
 chmod 755 /home/user
 ```
