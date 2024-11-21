@@ -66,15 +66,8 @@ cp -l
 ```shell
 ln -s <nameoffile>
 ```
-24= For the files use the command 
-```
-chmod 644 /home/user
-```
-For the directory use the command 
-
-```shell
-chmod 755 /home/user
-```
+24= For 
+find /home/user -type f -exec chmod 644 {} \; -o -type d -exec chmod 755 {} \;
 
 25= It holds the configurations of the name service switch
 e.g hosts: files
