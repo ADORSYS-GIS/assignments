@@ -2,11 +2,11 @@
 
 1=journalctl
 
-2=
+2=/etc/resolv.conf
 
-3=passwd 
+3=chage
 
-4=
+4=AllowOverride
 
 5=
 
@@ -16,7 +16,7 @@
 
 8=systemctl stop ssh 
 
-9=traceroute
+9=route
 
 10=/etc/crontab
 
@@ -56,6 +56,7 @@
 ln <nameofname>
 ```
 Or with the cp command using the -l flag
+
 ```shell
 cp -l 
 ```
