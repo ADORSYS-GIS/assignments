@@ -19,6 +19,7 @@
 9=traceroute
 
 10=/etc/crontab
+
  ## PART 2
  
 11=B
@@ -72,6 +73,6 @@ find /home/user -type f -exec chmod 644 {} \; -o -type d -exec chmod 755 {} \;
 25= It holds the configurations of the name service switch
 e.g hosts: files
 
-27= **iptables** shows the various administration tool for IPv4/IPv6 packet filtering. you can use the 
+27= **iptables** it's a low levelprogram for managing IPv4/IPv6 packet filtering. it's more computer friendly
 
-**ufw**  program for managing a netfilter firewalland configuring the access and not to access
+**ufw**  it's a high level program for managing a netfilter firewall and more user friendly to use
