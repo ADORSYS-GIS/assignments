@@ -1,0 +1,65 @@
+PART 1 ( FILL IN THE BLANK SPACE 
+1) journalctl 
+2) /etc/resolv.co
+3) password
+4) 
+5) ::1
+6) you will use the -R option 
+7) LD_LIBRARY_PATH
+8) sudo sysytemctl stop ssh.service
+9) netstat -r
+10) /var/spool/cron/crontabs 
+
+    PART 2 (MULTIPLE CHOICE QUESTIONS)
+11) B
+12) C
+13) C
+14) B
+15) C
+16) C
+17) B 
+18) quota
+19) B 
+20) B
+
+   PART 3 (practical and short answer question)
+21) 0 2 * * 5 /path/to/backup.sh 
+22)  Hardlinks are direct reference to the inode .when you creat a hardlink to a file both the original an the hard link share thesame inode.
+      hardlinks can not be created across different files systems and directories.they can only be used within files.
+      hardlinks can be created using : ln command path/to/file path/to/hardlink
+   Softlinks also known as symbolic link is a pointer to the path of a file rather than the file itself.unlike the hardlink sysbolic links do not share thesame inode with the original file
+   this means symbolic links can point to files across different file systems and directories 
+    symbolic links can be created using the ln -s cammand with path/to/file path/to/softlink
+
+23) 
+24) find /path/to directory -type d -exec chmod 755 '{}' ( for directory)
+    find /path/to directory -type f -exec chmod 644 '{}'  (for file)
+25) the purpose of the /etc/nsswitch.conf is to configure the name service switch(NSS) on linux system it defines how system resolve various type of information such as hostnames,user accounts and group information
+   and example is ; for user account information it is stored in (passwd)
+                     and for group information (group)
+26) sudo groupadd sshuser
+    sudo usermod -aG sshusers
+27)   key differences between iptables and ufw 
+
+     -complexity .iptables is more complex and powerful tool that alows for detailed control over network traffic while ufw(uncomplicated firewall)is designed to be user friendly and simplifies the process of managing firewall rules making it easier for beginners 
+     - configuration . iptables you write rules directly using the comamd line syntax while ufw provide a simpler command line interface like ufw 'allow or deny'
+         generally ufw is for those who prefare simplicity while iptables is for advanced users needing precise control over their firewalls settings .
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
