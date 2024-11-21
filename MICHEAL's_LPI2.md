@@ -68,11 +68,13 @@ ln -s <nameoffile>
 ```
 24= For the files use the command 
 ```
-chmod  u=rw, g=r, o=r /home/user
+chmod 644 /home/user
 ```
 For the directory use the command 
 ```
-chmod 
+```shell
+chmod 755 /home/user
+```
 
 25= It holds the configurations of the name service switch
 e.g hosts: files
