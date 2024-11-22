@@ -1,0 +1,27 @@
+1- systemctl
+2- 
+3- password
+4-  
+5-   
+6- -R  
+7- PATH  
+8- systemctl stop
+9- route  
+10- /var/spool/cron  
+11- B  
+12- D  
+13- B  
+14- C  
+15- C  
+16- B  
+17-   
+18- A 
+19- B  
+20- B  
+21-   
+22- A hardlink is a special file type that points directly to the inode of the original file and is created using the **ln** command while a soft link is a special type of file that points to the path of the original file and spans accross different filesystems and is created using the command **ln -s**.  
+23- 0 2 * * 5 ./path/backup.sh  
+24- find /home/usr -type f | chmod 644 && find /home/usr -type d | chmod 755  
+25- The /etc/nsswitch.conf file contains configuration database on users authentication e.g has line with passwd,
+26- sudo addgrp sshusers ; gpasswd -a <user> sshusers ; gpasswd sshusers
+27- 
